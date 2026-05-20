@@ -15,10 +15,13 @@
 # livro = 25
 # caneta = 5
 # gasto = qnt_l*livro + qnt_c*caneta
-# print("O gasto total foi de: {gasto}")
+# print(f"O gasto total foi de: {gasto}")
 
 # EXERCICIO 05
-
+# d = int(input("Digite o valor da distância: "))
+# v = int(input("Digite o valor da velocidade: "))
+# t = d / v
+# print(f"O carro percorreu em {t:.2f} horas")
 
 # EXERCICIO 06
 # nota1 = float(input("Digite a nota 1: "))
@@ -41,3 +44,7 @@
 # print(f"O valor a ser pago das peças é de R${valor:.2f}")
 
 # EXERCICIO 09
+# vproduto = float(input("Digite o valor do produto: "))
+# vpago = float(input("Digite o valor do pagamento: "))
+# troco = vpago - vproduto
+# print(f"O valor do troco é de R${troco:.2f}")
